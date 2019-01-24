@@ -6,6 +6,7 @@ import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
+import java.util.Random;
 
 public class WriteToHBase {
 

@@ -33,7 +33,7 @@ public class TableInformation {
 
     public static Configuration getHbaseConfiguration(){
         Configuration configuration = HBaseConfiguration.create();
-        configuration.set("hbase.zookeeper.quorum", "bigdata");
+        configuration.set("hbase.zookeeper.quorum", "hadoop");
         configuration.set("zookeeper.znode.parent", "/hbase");
         return configuration;
     }
